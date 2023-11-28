@@ -1,0 +1,19 @@
+{
+  "name": "yourbusiness",
+  "version": "1.0.0",
+  "description": "welcome to yourbusiness blog %&",
+  "keywords": [],
+  "author": "marcus",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-rc.0",
+    "vue": "^3.3.9",
+    "vuepress": "2.0.0-rc.0"
+  }
+}
