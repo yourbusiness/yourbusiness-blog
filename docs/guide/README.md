@@ -2,6 +2,7 @@
 title: yourbusiness
 author: marcus
 date: '2023-11-07'
+sidebar: false
 ---
 ## Frontmatter
 
