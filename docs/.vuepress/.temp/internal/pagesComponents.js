@@ -7,4 +7,6 @@ export const pagesComponents = {
   "v-1020f180": defineAsyncComponent(() => import(/* webpackChunkName: "v-1020f180" */"/Users/marcuswang/Desktop/yourbusiness-blog/docs/.vuepress/.temp/pages/components/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/marcuswang/Desktop/yourbusiness-blog/docs/.vuepress/.temp/pages/404.html.vue")),
+  // path: /guide/
+  "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/marcuswang/Desktop/yourbusiness-blog/docs/.vuepress/.temp/pages/guide/index.html.vue")),
 }

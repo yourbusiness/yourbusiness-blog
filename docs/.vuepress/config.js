@@ -14,6 +14,8 @@ export default defineUserConfig({
         repo: 'https://github.com/yourbusiness/yourbusiness-blog',
         repoLabel: '项目地址',
         lastUpdatedText: '最近更新',
+        editLinkText: '编辑此页',
+        contributorsText: '贡献者',
         navbar,
         sidebar
     }),
