@@ -1,7 +1,8 @@
 const navbar = [
     {
         text: '组件',
-        link: '/components/'  },
+        link: '/components/'
+    },
     {
         text: '文档',
         children: [
@@ -48,6 +49,10 @@ const navbar = [
                 ]
             }
         ]
+    },
+    {
+        text: '掘金',
+        link: 'https://juejin.cn/user/185130928311661/posts'
     }
 ]
 

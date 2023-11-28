@@ -11,8 +11,9 @@ export default defineUserConfig({
     head: [['link', { rel: 'icon', href: '/img/logo.png' }]],
     theme: defaultTheme({
         logo: '/img/logo.png',
-        sidebarDepth: 2,
-        repo: '',
+        repo: 'https://github.com/yourbusiness/yourbusiness-blog',
+        repoLabel: '项目地址',
+        lastUpdatedText: '最近更新',
         navbar,
         sidebar
     }),
