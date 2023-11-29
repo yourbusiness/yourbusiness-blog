@@ -11,8 +11,9 @@ jobs:
 
     # 拉取github仓库代码
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
       with:
+        node-version: 16
         persist-credentials: false
 
     # 执行依赖安装
