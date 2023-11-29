@@ -30,7 +30,7 @@ jobs:
           npm run docs:build
     # 执行部署
     - name: 部署
-      uses: easingthemes/ssh-deploy@v2.1.5
+      uses: easingthemes/ssh-deploy@v4.1.10
       with:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }} # 指定密钥，key即密钥名称
         SOURCE: docs/.vuepress/dist # 注意这是npm run build生成的文件，要复制到阿里云静态服务器的文件夹名称
