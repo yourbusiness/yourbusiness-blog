@@ -5,5 +5,5 @@ dist/
 .vscode/
 
 # 忽略自动生成文件
-.cache/
-.temp/
+cache/
+temp/
